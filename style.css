@@ -1,0 +1,165 @@
+.topnav {
+  display: flex;
+	background-color: #8FBC8B;
+	overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 15%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 1.5rem;
+}
+
+#logo {
+    font-size: 25px;
+}
+
+.topnav-right {
+  font-size: 20px;
+}
+
+html {
+	font-family: "Inter", Verdana, sans-serif;
+}
+
+body {
+	text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: #8FBC8B;
+  color: #f2f2f2;
+  text-align: center;
+  border: none;
+  height: 50px;
+  aspect-ratio: 3/1;
+  font-size: 1.25rem;
+}
+
+footer {
+  display: flex;
+  background-color: #8FBC8B;
+  color: #f2f2f2;
+  height: 8em;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.col-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-banner {
+  padding-top: 15%;
+  margin: 1.5rem;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.start-align-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+/*.service-sidebar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+*/
+.services {
+  background-color: #E4E4E7;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+
+.container a {
+  text-decoration: none;
+  color: #f2f2f2;
+  font-size: 24px;
+  background-color: #8FBC8B;
+  width: 350px;
+  height: 50px;
+  aspect-ratio: 3/1;
+  border: none;
+
+}
+
+.intro {
+  width: 40%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 40%;
+  text-align: left;
+}
+
+.banner {
+  text-align: left;
+
+}
+
+
+.point {
+  text-align: left;
+}
+
+
+
+
+/*.sidebar a {
+  float: left;
+  color: #2F4F4F;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}*/
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+
+}
+
+.sidebar a {
+  background: none;
+  color: #000;
+  font-size: 17px;
+  text-align: left;
+
+}
+
