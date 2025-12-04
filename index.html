@@ -7,31 +7,65 @@
     <title>Terri Karpish Coaching</title>
 
     <script src="https://kit.fontawesome.com/367658322e.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    <script src="header.js" defer></script>
-    <script src="footer.js" defer></script>
+
 
   </head>
 
-  <nav-header></nav-header>
-
-  
-
-    
   <body>
-  <div class="col-layout">
-    <div class="container row top-banner">
-      <div class="intro">
-        <h1>Terri Karpish</h1>
-        <p><i>Coach, Advisor and Mediator</i></p>
-        <p>As certified coach (ICF ACC) with over 25 years of experience as a lawyer and coach, I specialize in providing coaching and advisory services to professionals and organizations looking to thrive</p>
-        <a class="btn btn-primary" href="about.html">Meet Terri</a>
-      </div>
 
-    <img src="Terri00137.JPG" alt="Terri in a gray blazer" width="500">
-      
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-3" style="background-color: #8fbc8b;">
+      <a class="navbar-brand" href="#">Terri Karpish Coaching</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          
+        </ul>
     </div>
+</nav>
+
+
+<div class="container mt-4">
+  <div class="row align-items-center" id="landing">
+    
+    <!-- Image -->
+    <div class="col-md-4 text-center">
+      <img src="Terri00137.JPG" class="img-fluid profile-pic" alt="Terri in a gray blazer">
+    </div>
+
+    <!-- Text -->
+    <div class="col-md-6 text-center">
+      <h2>Terri Karpish</h2>
+      <p><i>Coach, advisor and mediator</i></p>
+      <p>
+        As certified coach (ICF ACC) with over 25 years of experience as a lawyer and coach, I specialize in providing coaching and advisory services to professionals and organizations looking to thrive.
+      </p>
+      <a href="about.html" class="btn btn-primary">Meet Terri</a>
+    </div>
+
+  </div>
+</div>
+
+
+
+
 
 
     <div class="services col-layout">
@@ -39,20 +73,20 @@
 
       <div class="container row">
 
-        <a class="btn btn-primary" href="services.html#coaching">Coaching</a>
+        <a class="btn btn-primary" href="services.html#collapseOne">Coaching</a>
 
 
-        <a class="btn btn-primary" href="services.html#resolution">Conflict Resolution</a>
+        <a class="btn btn-primary" href="services.html#collapseTwo">Conflict Resolution</a>
 
 
-        <a class="btn btn-primary" href="services.html#advisory">Advisory and Workshops</a>
+        <a class="btn btn-primary" href="services.html#collapseThree">Advisory and Workshops</a>
 
     </div>
       
     </div>
 
 
-    <div class="container">
+    <div class="container text-center">
       <h1>Get in touch</h1>
       <a class="btn btn-primary" href="contact.html">Contact</a>
     </div>
@@ -60,7 +94,6 @@
   </div>
 
     <nav-footer></nav-footer>
-    
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>
